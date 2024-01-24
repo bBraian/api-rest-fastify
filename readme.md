@@ -4,3 +4,4 @@ Conceitos trabalhados
 *Typescript
 *Fastify
 *EsLint
+*Knex - SQL query builder
