@@ -5,6 +5,8 @@ Projeto desenvolvido durante o curso de NodeJS da @Rocketseat
 - Fastify
 - EsLint
 - Knex - SQL query builder
+- Zod validator
+- cookies
 
 # RF
 - User must can create a new transaction;
@@ -17,7 +19,13 @@ Projeto desenvolvido durante o curso de NodeJS da @Rocketseat
 - It must be possible to identify the user between transactions;
 - The user can only see transactions that he created;
 
-# RNF
+# Routes
+| Type   | Path       | Description                           |
+| :---------- | :--------- | :---------------------------------- |
+| `GET` | `/transactions` | Get all transactions |
+| `GET` | `/transactions/{id}` | Get one transaction by id |
+| `GET` | `/transactions/summary` | Get the summary of all transactions |
+| `POST` | `/transactions` | Insert transaction |
 
 Run the project
 
